@@ -1,0 +1,124 @@
+	      Core Java- DAY10
+package
+  collection-java.util- data structure
+interfaces
+
+set
+list
+queue
+map
+
+implemented classes
+Arraylist
+stack
+linkedlist
+vector
+
+prioritiqueue
+dqueue
+
+hashmap
+
+----------------------------------------------
+Arraylist<Employee> al = new ArrayList<>();
+al.add(e1)
+
+Map
+     HashMap
+
+key and value
+pair of information
+
+name mobile
+name age
+
+ipaddress and domainname
+
+1 name
+integer string
+
+empid e1
+
+entryset()
+getkey()
+getvalue()
+
+Employee java.util.Map.Entry.getValue()
+============================================
+collection- java.util
+
+File handling- java.io
+
+1) how to read write primitives
+2) how to read write string- sequence of char
+3) how to read write object
+
+stream
+
+inputstream
+- to read data from the file or console or socket
+
+outputstream
+- to write data to the console or file or socket
+
+- object
+- array
+- primitive
+
+
+writer
+  - to write data to the file
+reader
+- to read data from file
+ - to deal with sequence of char
+
+
+2) how to read write string- sequence of char
+
+steps
+1) create file for write operation
+2) read data from console
+3) write to the file
+4) close the file
+------------------------
+read
+1) existing file to be opened  for read operation
+2) read data from file
+3) write data to the console
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

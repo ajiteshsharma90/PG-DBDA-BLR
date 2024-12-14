@@ -1,0 +1,22 @@
+Assignment 2(Inheritance) 
+
+
+Problem Statement 1: Employee Management System
+Description:
+Design a class hierarchy for an Employee Management System. The base class Employee should include attributes such as employeeId, name, and department. Create two subclasses, FullTimeEmployee and PartTimeEmployee, which inherit from Employee. The FullTimeEmployee class should have additional attributes like salary, while the PartTimeEmployee class should include hourlyRate. Implement methods to calculate total compensation for both types of employees.
+
+Problem Statement 2: Vehicle Types
+Description:
+Develop a class structure for different vehicle types. Create a base class Vehicle with attributes like make, model, and year. Derive subclasses Car and Truck from Vehicle. The Car class should have additional features such as numberOfDoors, while the Truck class should include cargoCapacity. Implement methods to display the vehicle details and to calculate the insurance premium based on the type of vehicle.
+
+Problem Statement 3: University Course Management
+Description:
+Build a class hierarchy for a university course management system. The base class Course should contain attributes like courseCode, courseName, and credits. Create two subclasses, OnlineCourse and OnCampusCourse, that inherit from Course. The OnlineCourse should have a platform attribute, while the OnCampusCourse should include classroomNumber. Implement methods to display course information and to determine the mode of delivery.
+
+Problem Statement 4: Banking System
+Description:
+Design a class hierarchy for a banking system. Create a base class Account with attributes like accountNumber, accountHolderName, and balance. Derive two subclasses, SavingsAccount and CurrentAccount, from Account. The SavingsAccount should have an interest rate and methods for depositing, withdrawing, and calculating interest, while the CurrentAccount should include attributes for overdraft limit and methods for managing funds. Implement methods to display account details and to perform transactions.
+
+Problem Statement 5: Library Management
+Description:
+Create a library management system using hierarchical inheritance. Develop a base class Book with common attributes like title, author, and isbn. Derive two subclasses, EBook and PrintedBook. The EBook class should include additional attributes such as fileSize and downloadLink, while the PrintedBook class should have pageCount and shelfLocation. Implement methods to display book details and to check availability based on the type of book.

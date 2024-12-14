@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book>
+    <title>Harry Potter and the Philosopher's Stone</title>
+    <author>J.K. Rowling</author>
+    <genre>Fantasy</genre>
+    <year>1997</year>
+</book>

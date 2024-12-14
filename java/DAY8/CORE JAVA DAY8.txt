@@ -1,0 +1,154 @@
+CORE JAVA DAY8
+
+
+polymorphism
+
+runtime polymorphism
+  - having super class reference 
+    holding sub class object
+
+
+final
+
+can be applied to 
+
+ variable
+
+  final  float PI = 3.17
+final int arraysise = 10;
+int[] num = new int[arraysise]
+  value of the variable cannot be changed
+
+ method
+
+
+final class emp
+{
+final public void findbonus()
+{
+
+
+}
+}
+
+class Manager extends emp
+{
+public void findbonus()
+{
+
+
+}
+
+
+}
+
+ class
+
+------------------------------------------------------------------------------
+class Object 
+{
+
+toString()
+{
+}
+
+hascode()
+{
+
+}
+equals()
+{
+
+}
+
+}
+-------------------------------------------------------
+Abstraction
+
+abstraction is a process of hiding the implementation
+details and showing only the functionality to the user
+
+print("welcome")
+
+   abstract class- 0 to 90 %
+
+   interface    - 100%
+
+-------------------------------------------------------
+abstract class
+
+abstract class emp
+{
+   int a;
+  
+   emp()
+  {
+
+  }
+
+ abstract  void dips();
+
+
+  void print()
+{
+
+
+}
+
+}
+
+class partimeemp extends emp
+{
+
+void disp
+{
+ -    
+}
+
+
+}
+
+-------------------------------------------------------
+
+interface
+
+only abstract method
+method are public and abstract
+
+abstract class emp
+{
+abstract void print();
+
+}
+
+Interface myinterface
+{
+
+ abstract void print();
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

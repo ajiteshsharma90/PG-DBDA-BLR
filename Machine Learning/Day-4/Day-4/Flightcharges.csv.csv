@@ -1,0 +1,31 @@
+airline,distance,business class,economy class,rush hr,price
+indigo,1200,no,yes,yes,10000
+vistara,1250,no,yes,yes,12000
+air india,2300,yes,no,yes,20000
+emirates,1542,yes,no,yes,25000
+nippon,1248,yes,no,yes,23000
+raynair,1265,yes,no,no,14000
+spirit,2415,no,yes,no,15000
+united,8521,yes,no,no,25100
+air asia,3652,yes,no,no,14785
+king fisher,4520,no,yes,no,4512
+eithaid,9521,yes,no,no,32561
+qatar,1478,yes,no,yes,18000
+spice jet,7412,no,yes,no,15200
+virgin,6321,no,yes,yes,14860
+fedex,4521,yes,no,no,3251
+indigo,5632,no,yes,yes,1200
+vistara,3214,no,yes,yes,14896
+air india,8546,yes,no,no,4582
+emirates,7459,no,yes,yes,4444
+nippon,8563,yes,no,no,11111
+raynair,4589,no,yes,yes,22222
+spirit,6547,yes,no,yes,33333
+united,4127,yes,no,no,15420
+air asia,1032,no,yes,yes,8654
+king fisher,2365,no,yes,no,9658
+eithaid,9632,yes,no,yes,23011
+qatar,1450,yes,no,yes,12100
+spice jet,2147,no,yes,no,25841
+virgin,2365,no,yes,yes,11445
+fedex,5418,no,yes,no,7854

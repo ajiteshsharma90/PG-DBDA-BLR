@@ -1,0 +1,126 @@
+		   core java -day3
+
+part I
+Introduction to java
+data types
+variable
+operators
+
+conditional , control,looping statements
+if
+if else
+if else if
+
+switch
+
+for
+while
+do while
+
+break
+continue
+
+method
+
+  static method
+ 
+class test
+{
+
+ public  static void findmax( int a,int b )
+{
+
+
+}
+
+public static void main(String[] args)
+{
+int a,int b;
+ a =10;b =20;
+  findmax(a,b);
+}
+} 
+
+
+----------------------------------
+class  A
+{
+
+ public  static void findmax( int a,int b )
+{
+
+
+}
+}
+class test
+{
+
+public static void main(String[] args)
+{
+int a,int b;
+ a =10;b =20;
+  A.findmax(a,b);
+}
+} 
+
+ non static method
+
+class Emp
+{
+public void getempno()
+{
+
+}
+
+public static void main(String[] args)
+{
+    Emp e = new Emp();
+    e.getempno();
+}
+}
+int java.util.Scanner.nextInt()
+String java.util.Scanner.next()
+
+how to read data from console
+how to get data from the user
+
+
+array
+
+1) Array is a data structure
+2) size is fixed
+3) hold similar  type of data
+4) accessed using index
+
+how to create array
+
+ int[] num = new int[4]
+
+  
+
+how to initialize the data
+
+  num[0] = 10;
+  num[1] = 20;
+  num[2] = 30;
+  num[3] = 40;
+
+int[] n = {10,20,30,40,50}
+
+how to iterate the data
+
+for(int i=0;i<4;i++)
+{
+   syso(num[i]);
+
+} 
+
+for( int ele   :num)
+{
+syso(ele)
+}
+
+
+-----
+Part II
+classes and objects

@@ -1,0 +1,58 @@
+public class Student 
+{
+
+	int id;
+	static String cname;
+	
+	public void displaystudent()
+	{
+		System.out.println(id + cname);
+	}
+	
+	public static void readstudent()
+	{
+		cname = "dbda";
+		
+		
+	}
+	
+	public static void main(String[] args) 
+	{
+		Student s1 = new Student();
+		s1.id = 1001;
+	    System.out.println(s1.id);
+		cname = "dac";
+		System.out.println(cname);
+		
+		
+	}
+	
+}
+
+
+
+public class StaticExample 
+{
+
+	 int i;
+	
+	public void increment()
+	{
+		i++;
+		System.out.println(i);
+	
+	}
+	
+	public static void main(String[] args)
+	{
+	
+		StaticExample s1 = new StaticExample();
+		s1.increment();
+		StaticExample s2 = new StaticExample();
+		s2.increment();
+		StaticExample s3 = new StaticExample();
+		s3.increment();
+		
+		
+		
+	}

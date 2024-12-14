@@ -1,0 +1,357 @@
+
+
+why programming lang ?
+======================
+problem solving
+
+
+
+Compile Time Problem / Static
+
+Run Time PRoblem / dynamic
+
+My Problem in 100% run Time      - Scripting Lang (python)
+My Problem in 100% compile time  - Programming lang(java)
+My problem in 80% RT & 20% CT    - python & C/C++/LUa
+My PRoblen in 80% CT & 20% RT    - programming lang(java)
+
+
+Program Life Cycle:-
+=====================
+app.py------>app.PYC----->output
+
+====================================================================================
+
+What is Heap Area ?
+ - Zero wastage of memory
+ - problem - Memory Leakage
+ - solution - GC 
+What is Reference ?
+ - only reference variable
+What is NameSpace ?
+ - book keeper of reference variables
+ - display book keeper - dir()
+What is shallow copy ?
+ - num = 10
+ - temp = num
+ - print(num)  # 10
+ - print(temp) # 10
+ - print(num is temp) #  True
+
+What is Reference counting ?
+ - when rc increment - shallow copy
+ - when rc decremented - variable goes out of scope
+ 
+What is GC ?
+
+====================================================================================
+Terms:-
+=======
+class    -  udt                      - Table
+object   -  instance of a class      - Row
+data mem -  properties of an object  - column labels
+method   -  operations on an object  - custom operations
+
+how to create a object -   var = new classname()
+     
+access data member     -   objectref.datamember
+
+message passing        -   objectref.methodname()
+
+class name = Account
+Data members = num/name/type/balance
+methods      = check()/with()/dep()/isSavings()
+
+we have this info/data
+  1234 siva sb  25000
+  1235 vivek cur 45000
+
+step1 # create objects
+ acc1 = Account()
+ acc2 = Account()
+
+step2 # set the data 
+ acc1.num=1234
+ acc1.name="siva"
+ acc1.type="sb" 
+ acc1.bal = 2500
+ acc2.num=1235
+ acc2.name="vivek" 
+ acc2.type="cur"
+ acc2.bal= 45000
+
+step3 # withdraw 5k from vivek account & verify ?
+ acc2.withdraw(5000)
+ acc2.check()
+
+step4 # deposit 2k to siva & verify ?
+  acc1.deposit(2000)
+  acc1.check()
+
+step5 # is it valid / invalid  ?
+  acc3.deposit(5000)  # invalid
+
+step6 # is it valid / invalid 
+  acc1.delete_account() # invalid
+
+step7 # transfer 3k from siva to vivek
+  acc1.witdraw(3000)
+  acc2.deposit(2000)
+  acc1.check()
+  acc2.check()
+
+
+
+Story
+we have readymade class named : list
+                  methods     : append(ITEM) 
+                              : pop(index)
+                              : sort()
+                              : reverse()
+
+we have this data
+    mango/grape/orange/berry
+
+we have another data
+    lizzy,shanavi,hana, nick
+
+#step1:
+fruits = list()
+frnds  = list()
+
+#step2 init
+fruits.append("mango")
+fruits.append("grapes")
+fruits.append("orange")
+fruits.append("berry")
+print(fruits)
+
+frnds.append("lizzy")
+frnds.append("shanavi")
+frnds.append("hana")
+frnds.append("nick")
+print(frnds)
+
+#step3 delete lizzy
+frnds.pop(0)
+print(frnds)
+
+# sort the fruits
+fruits.sort()
+print(fruits)
+
+# reverse the frnds
+frnds.reverse()
+print(frnds)
+
+
+
+==================================================================================
+data type = programming lang
+
+data structures - scripting lang
+
+
+                            Data structures
+                                  |
+                    -----------------------------
+                   |                            |
+                Im-Mutable                Mutable
+
+                int                        bytearray
+                float                      list
+                str                        set  
+                bool                       dict
+                NoneType
+                tuple
+
+visually identify the data structures:-
+=========================================
+num=10  
+ht=2.5
+result=True
+output=None
+name="KUNAL"      # double quotes
+name='KUNAL'      # single quotes
+name='''KUNAL'''  # triple quotes
+
+weeks=("sun","mon","tue","wed")  # round brackets - tuple
+numlst=[10,20,30,40]             # square brackets - LIST
+grps={"alpha", "beta", "delta"}  # flower brackets - set
+encode={                         # dict
+        "blr" : 10,
+        "chn" : 20
+        "mum" : 30
+       }
+              
+
+
+Rule1 : Scalar + Scalar
+      : Vector + Vector
+
+Rule2 : types should be same
+
+ex1:-
+=====
+
+num1 = 10
+num2 = 20
+
+res = num1 + num2
+
+print(res)  # 
+
+
+
+Ex2:-
+====
+num1 = 10
+num2 = "lizzy"
+
+#res = num1 + num2
+
+#print(res)  # failed
+
+res = str(num1) + num2
+
+print(res)  # success
+
+
+
+Ex3:-
+=====
+num1 = 25
+
+num2 = "30"
+
+res = num1 + num2
+
+res = num1 + int(num2)  # success
+
+
+Ex4:-
+======
+a = [10,20,30]
+b = [40,50,60]
+
+res = a + b 
+
+print(res)
+
+
+Ex5:-
+=====
+>> Result should be a LIST
+
+a = [10,20,30]   # list
+b = (40,50,60)   # tuple
+
+res = a + b  
+
+print(res)  # fails
+
+res = a + list(b)
+
+print(res)  
+
+
+Ex6:
+=====
+a = [10,20,30]
+b = 40
+
+res = a + b
+ 
+print(res) # fails
+
+res = a + [b]
+
+print(res) # success
+
+
+
+=====================================================================================
+top websites for python developers:-
+=====================================
+
+1) compiler      -   python.org   - only python 
+                     anaconda.com - data sci dev (community edition)
+
+2) online docs   -   www.docs.python.org
+
+   https://docs.python.org/3.12/reference/lexical_analysis.html#identifiers
+   https://docs.python.org/3.12/library/functions.html
+   https://docs.python.org/3.12/library/exceptions.html#exception-hierarchy
+
+3) Coding Standard -  pep8.org - pep257
+
+4) Repo - play store - www.pypi.org
+
+5) IDE   -  VS CODE + Co pilot
+         -  PyCharm
+         -  Juputer notebook
+         -  colab
+         -  juputer lab
+
+====================================================================================
+first python program:-
+======================
+import os    # load the library
+
+num1 = input("Enter first : ")
+num2 = input("Enter second : ")
+
+res = num1 + num2
+
+print(res)
+#print("RESULT = ",res)
+#print("RESULT = "+res)
+
+#print("Sum of %s and %s is %s" %(num1,num2,res))
+#print("Sum of {0} and {1} is {2}".format(num1,num2,res))
+#print(f"sum of {num1} and {num2} is {res}")
+
+
+kunalaher0538@gmail.com and 9594397472
+itsvaradkodgire@gmail.com and 8805200924
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

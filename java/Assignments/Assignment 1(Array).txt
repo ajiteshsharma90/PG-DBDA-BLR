@@ -1,0 +1,12 @@
+Assignment 1(Array)
+1)Find Duplicates in an Array: Given an integer array where each element appears once or twice, write a function that returns an array of all the duplicates. For example, given the array [4, 3, 2, 7, 8, 3, 2, 1], the output should be [3, 2].
+
+2) Find the Kth Largest Element: Write a Java method to find the kth largest element in an unsorted array. For instance, given the array [3, 2, 1, 5, 6, 4] and k = 2, the output should be 5.
+
+3)Sum of Elements: Implement a Java function that calculates the sum of all elements in an integer array. For instance, given the array [1, 2, 3, 4], the output should be 10.
+
+4)Count Even and Odd Numbers: Write a Java method that counts the number of even and odd integers in an array. For example, for the array [1, 2, 3, 4, 5], the output should be Even Count: 2, Odd Count: 3.
+
+5)Reverse an Array: Write a Java method that takes an integer array and reverses its elements in place. For example, given the array [1, 2, 3, 4, 5], the output should be [5, 4, 3, 2, 1].
+
+

@@ -1,0 +1,190 @@
+how python works
+memory management
+  
+data structure
+control and conditional statement
+iterator
+function
+module
+packages
+file handling
+NumPy
+panda
+decorator
+regular expression
+-------------------------------------------------
+python- oops
+
+classes and objects
+
+object
+1) object is a real world entity
+2) it has properties and behaviour
+3) object is an instance of a class
+3) it takes memory
+
+class
+1) class is a blue print or template
+2) it is used to create or instantiate the object
+
+store 5 employee data into the system
+
+class emp
+{
+
+  id
+  name
+  design
+  sal
+
+main()
+{
+Emp e1 = new emp()
+emp e1 = new emp()
+
+e1.name = "raj"
+e1.id = 1001;
+e1.desig = "faculty"
+e1.sal = "2000;
+}
+construct data using reference
+
+
+
+
+
+
+
+--------------------------------------------------------
+
+
+construct data using method
+
+  def display_details(self):
+        print(f" name :{self.name} id : {self.empid}")
+    
+    def read_details(self):
+        self.name = input("enter the  name")
+        self.empid = input("enter the empid")
+        
+
+e1 = Employee()
+e1.read_details()
+e1.display_details()
+e2 = Employee()
+e2.read_details()
+e2.display_details()
+
+constructor
+
+constructor is method used to construct data for an object
+
+class Employee:
+
+def __init__(self,empid,name):
+      self.empid = empid
+      self.name = name
+
+e1 = Employee(1001,"kunal")
+
+
+constructor gets called automatically during object creation
+
+-----------------------------------------------------------------------------------------
+static and non static behaviour
+
+non static method- instance variable /instance method
+
+class variable and class method
+
+static method
+
+
+class Employee:
+    cname = "CDAC"
+    def __init__(self,empid,ename):
+        self.empid = empid;
+        self.ename = ename
+        
+    def display_details(self):
+        print(f" name :{self.ename} id : {self.empid}")
+        
+    @classmethod
+    def displaycname(cls):
+        print(cls.cname);
+    
+     
+e1 = Employee(1001,"shan")
+e1.display_details()
+e2 = Employee(1002,"kunal")
+e2.display_details()
+
+
+
+
+access specifier
+
+
+public- by default is public
+private
+protected
+
+
+inheritance
+
+inheritance is acquiring the properties and behaviour from one class
+to another class
+
+code reusability
+
+class emp
+{
+
+superproperties
+superbehaviour
+
+}
+
+
+class partimeemployee(emp)
+{
+  subproperties
+  subbehaviour
+
+}
+ p = partimeEmployee()
+p.superproperties
+p.superbehaviour
+p.subproberties
+p.subbehaviour
+
+- creating sub class object accessing the subclass futures and super class futures
+
+super class
+sub class
+- relation 
+
+type of inheritance
+simple
+
+class vehicle
+
+make
+model
+price
+
+car(vehicle)
+
+ maintenance cost
+
+===========================================================
+
+multilevel
+hierarchical
+multiple
+polymorphism
+abstraction
+
+exception
+data base connection
+

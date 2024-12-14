@@ -1,0 +1,175 @@
+Task1:-
+=======
+file "one.csv"   - is in the current directory
+a,b,c
+1,2,3
+4,5,6
+7,8,9
+10,20,30
+
+file  "two.csv" is in different directory "c:\data\loc1\two.csv"
+10-20-30
+40-50-60
+70-80-90
+11-12-13
+
+Expected output:-
+-----------------
+a,b,c, sum
+1,2,3, 1+2+3+10
+4,5,6, 4+5+6+40
+
+
+Task2:-
+========
+data46.csv
+----------
+10-20
+30-40
+50-60
+70-80
+90-15
+11-12
+13-13
+4-6
+34-65
+32-56
+
+
+Expected output:-
+-----------------
+num1 num2 sum  avg 
+10   20   40    ?
+30   40   70    ?
+50   60   110   ?
+70   80   150   ?
+
+
+Task3:-
+========
+data47.csv:-
+------------
+num1,num2
+10,20
+30,40
+50,a
+60,70
+80,b
+90,15
+c,25
+10,15
+
+Expected output:-
+=================
+num1  num2  sum  avg 
+10    20    30    ?
+
+
+Task4:-
+========
+data48.csv:-
+------------
+num1,num2
+10,20
+30,40
+50,
+60,70
+80,
+90,15
+,25
+10,15
+11,
+,
+25,5
+0,
+,
+
+11,12
+
+Expected output:-
+==================
+num1  num2  sum  avg
+10    20    30   15.0
+
+
+
+Task5:-
+=======
+Given:-
+--------
+name  dept  
+ravi  sales
+manu  purch
+hari  accts
+
+Expected1:-
+==========
+name  sales  purch  accts
+ravi  1      0      0
+manu  0      1      0
+hari  0      0      1
+
+Expected2:-
+===========
+name  dept
+ravi  1
+manu  2
+hari  3
+
+Expected3:-
+==========
+name  dept
+ravi  0.1
+manu  0.2
+hari  0.3
+
+Task6:-
+========
+convert "name" column to upper case
+
+Given:-
+--------
+name  dept  
+ravi  sales
+manu  purch
+hari  accts
+ranjan  finan
+
+Expected1:-
+----------
+name  dept  
+RavI  sales
+ManU  purch
+HarI  accts
+RanjaN  finan
+
+Expected2:-
+----------
+name   dept  
+RAVI   SALES
+MANU   PURCH
+HARI   ACCTS
+RANJAN FINAN
+
+
+Task7:-
+=======
+Given:-
+--------
+fullname
+a-b-c 
+x-y-z
+p-q-r
+
+
+Expected:-
+==========
+fullname  first  mid  last
+a-b-c     a      b    c
+x-y-z     x      y    z
+p-q-r     p      q    r
+
+
+
+
+

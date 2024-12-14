@@ -1,0 +1,269 @@
+			core java - day4
+
+Part I
+Introduction to java
+data types
+variables
+operators
+method
+array
+
+------------------------------
+part II- oops
+
+classes and objects
+constructor
+static and non static behaviour
+encapsulation
+inheritance
+polymorphism
+   method overloading
+   method overriding
+abstraction
+   abstract class
+   interface
+
+this
+final
+super
+
+public
+private
+default
+protected
+----------------------------------------------
+
+object oriented programming
+
+classes and objects
+
+objects
+1) object is a real world entity
+2) object has two thing 
+      1)properties (data)
+      2)behaviour (method)
+3) object is an instance of the class
+4) takes memory, is physical
+
+class
+1) class is template or blue print
+2) it is used to create object/instantiate the object
+3) class I logical
+
+
+
+identified by the object
+list out the properties inside the class
+instantiate the object
+store data into the system.
+assign data to the object
+
+
+class Student
+{
+  int id
+  string name
+  string cname
+  float mark;
+}
+
+class Employee
+{
+  int id
+  String name
+  float sal
+  String desig
+}
+
+class Car
+{
+  no
+  model
+  price
+  type
+}
+
+variable
+1) local
+
+2) instance
+instance variable is declared inside the class
+outside the method
+
+- first program
+public class Student 
+{
+   int sid;
+   String name;
+   float per;
+   
+   
+   
+   
+   public static void main(String[] args) 
+   {
+	   Student s1 = new Student();
+	   
+	   s1.sid = 1001;
+	   s1.name = "nsnathan";
+	   s1.per = 45.4f;
+	   System.out.println("student 1 detals");
+	   System.out.println(s1.sid);
+	   System.out.println(s1.name);
+	   System.out.println(s1.per);
+	  
+	   Student s2 = new Student();
+	   s2.sid = 1002;
+	   s2.name = "nathan";
+	   s2.per = 55.4f;
+	   System.out.println("student 2 detals");
+	   System.out.println(s2.sid);
+	   System.out.println(s2.name);
+	   System.out.println(s2.per);
+	   
+	   Student s3 = new Student();
+	   s3.sid = 1003;
+	   s3.name = "shan";
+	   s3.per = 56.4f;
+	   System.out.println("student 3 detals");
+	   System.out.println(s3.sid);
+	   System.out.println(s3.name);
+	   System.out.println(s3.per);
+   }
+   
+}
+
+
+-----------------------------------------------------------------
+part II- oops
+
+classes and objects
+
+constructor
+
+constructor is a special kind of method
+constructor is used to initialise the object
+
+constructor name should be same as class name
+constructor can not have any return type
+constructor get called automatically during object creation
+
+
+
+class Employee
+{
+    id
+    name
+public Employee()
+{
+   id = 1001;
+   name = "shan"
+}
+
+
+main()
+{
+   Employee e = new Employee()
+   e.display();
+   e.findtax();
+
+}
+}
+
+type of constructor
+
+default
+no argument
+parameter
+
+this
+this is a keyword refers to the current calling object
+
+
+array of object
+
+
+? static and non static behaviour
+
+
+for(int ele :num)
+{
+   syso(ele)
+}
+
+
+public class Employee
+{
+
+	int empno;
+	String name;
+	float sal;
+	
+	private Employee()
+	{
+		empno = 1004;
+		name = "raju";
+		sal = 50000;
+	}
+	
+	public Employee(int no,String na)
+	{
+		empno = no;
+		name = na;
+		
+	}
+	
+	public Employee(int no,String na ,float sa)
+	{
+		empno = no;
+		name = na;
+		sal = sa;
+	}
+	
+	public void dispEmployee()
+	{
+		 System.out.println(empno +" "+ name +" " + sal);
+	}
+	
+	public static void main(String[] args) 
+	{
+	
+		Employee e1 = new Employee(1001,"shan",30000);
+		
+		
+		e1.dispEmployee();
+		
+      Employee e2 = new Employee(1002,"nsnathan",50000);
+		
+		
+		e2.dispEmployee();
+		
+		Employee e3 = new Employee(1003,"siju");
+		e3.dispEmployee();
+		
+		
+		Employee e4 = new Employee();
+		e4.dispEmployee();
+		
+		
+	}
+	
+}
+
+
+----------------
+
+this
+
+
+
+
+
+
+
+
+
+
+
+
+

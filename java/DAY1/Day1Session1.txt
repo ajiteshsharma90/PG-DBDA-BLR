@@ -1,0 +1,254 @@
+		Core java-Day1
+part I
+ Introduction to java
+ data types
+ variables
+ operators
+ conditional and control statements
+ method
+ Array
+
+part II
+  oops
+ classes and objects
+ constructor
+ static and non static behaviour
+ encapsulation
+ inheritance
+ polymorphism
+    method overloading
+    method overriding
+abstraction
+    abstract class
+    interface
+
+this
+super
+final
+
+public
+private
+default
+protected
+
+---------------------------------
+part III
+
+packages
+
+collection - data structure - java.util
+file handling - java.io
+socket programming - java.net
+jdbc -             - java.sql
+multithreading     - java.lang
+Exception          - java.lang
+
+---------------------------------------------
+Introduction to java
+what is java
+  java is high level ,object oriented language
+  and a platform
+
+usage of java
+
+desktop application
+web application
+mobile application
+embedded application
+Gaming
+cloud
+scientific application
+bigdata
+   
+edition of java
+SE- 
+Desktop application
+- application which runs on local machines
+- java ,javac, swing, awt
+
+EE
+- web application 
+  application which run on server
+  servlet,jsp , spring spring mvc 
+
+- enterprise application
+   EJb
+
+ME- application which runs on 
+    electronic devices
+    android
+
+
+component of java
+jdk - java development kit
+    - jre+ set of tools(java javac)
+    - develop and execute java application 
+
+jre- java runtime environment
+     jvm + set of libraries
+    - execute the application
+
+jvm - java virtual machine
+    - it execute the bytecode
+    - convert the bytecode to the machine
+      readable 
+
+how java works
+
+hello.java -> compiler -> hello.class->jvm->output
+
+features of java
+
+simple
+
+secure/robust
+object oriented
+
+data in primitives
+
+Student s = name,id,mark,sub
+
+platform independence
+
+write once run anywhere
+
+develop application in one os(windows)
+run it on any os(Linux,mac)
+
+portable
+
+dynamic
+
+distributed
+
+multithread
+----------------------------------------------
+data types
+primitives
+- integer
+byte - 1
+short  2
+int    4
+long   8 
+
+floating
+
+float  4
+double 8
+
+char - 2
+
+Boolean -1 
+
+
+n =10;
+
+non primitives/reference
+array
+ int[] num = int[4]
+String  name = "cdac bangalore"
+Class
+Emp e = 
+   id
+   name
+   sa;
+
+
+ String   name = 'nsnathan'
+
+   price = 80.4;
+
+
+variables
+
+local variable
+the variable defined inside the method
+is called local variable
+scope of the variable is with in the method
+only
+
+
+#include<stdio.h>
+void main()
+{
+  int name = "shan"
+  int no = 101431;
+  f1()
+  print(name);
+}
+void f1()
+{
+print(name)
+}
+
+instance variable
+static variable
+
+Hello world in java
+
+jdk
+
+eclipse
+
+-----------------------------------------------
+operators
+
+1) arithmetic
+   +,-,*,/ , %
+2) relational
+   >,>=,<,<=,==.!=
+
+    if(mark>16)
+        pass
+    else
+        fail
+3) logical
+  && || 
+if(lab>16 || ccee>16)
+  pass
+else
+ fail
+  
+4) assignment
+
+   a =10
+   a = a+1;
+   a+=1;
+
+5) bitwise
+
+6) increment/decrement
+   
+   ++
+   --
+
+6) ternary
+  int a  = 10
+  int b = 20;
+ int result= (a>b)? a,b;
+ string result= (mark>16)? "pass","fail";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+

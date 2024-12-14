@@ -1,0 +1,82 @@
+		core java-day11
+
+collection-
+
+File handling-java.io
+
+- sequence of char - filereader,filewriter
+                   - bufferedreader
+- object
+   how to read or write object to the file
+
+write
+
+1) create file 
+2) create object
+3) write object into the file
+4) close the file
+
+read
+1) open the file for read
+2) read the object from the file
+3) write to the console
+4) close it
+
+
+Object java.io.ObjectInputStream.readObject() throws IOException, ClassNotFoundException
+- read write primitives
+----------------------------------------------
+exception
+---------------------------------
+java.sql
+
+jdbc- java database connectivity
+interacting java with data base
+
+
+
+class Class
+DriverManager
+
+connection
+statement
+preparedstatement
+callablestatement
+ResultSet
+
+
+Forname()
+getconnection()
+executeQuery()
+getInt()
+getString()
+next()
+
+steps
+1) loading the drivers
+2) getting the connection
+3) create statement or preparedstatement        
+   reference
+4) create query
+5) execute the query
+6) iterate the reseltset
+7) close connection
+
+
+select * from emp where empno = ?
+Connection java.sql.DriverManager.getConnection(String url, String user, String password) throws SQLException
+
+
+
+Statement java.sql.Connection.createStatement() throws SQLException
+
+
+ResultSet java.sql.Statement.executeQuery(String sql) throws SQLException
+
+
+preparedStatement
+
+
+insert into emp(empno,name,sal) values(?, ?, ? )
+
+

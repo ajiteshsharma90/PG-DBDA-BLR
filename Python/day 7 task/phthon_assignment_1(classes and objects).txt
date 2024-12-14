@@ -1,0 +1,47 @@
+Problem 1: Bank Account Management
+
+Statement: Create a class BankAccount that represents a bank account. The class should have a class variable to keep track of the total number of accounts created. Include a constructor that initializes the account holder's name and balance. Implement methods to deposit and withdraw money, as well as a method to display the account details.
+
+Logic:
+Class variable total_accounts to count the number of instances.
+Constructor initializes account holder's name and balance.
+Methods to deposit, withdraw, and display account details.
+
+
+Problem 2: Student Grade Management
+
+Statement: Design a class Student that maintains the student's name, ID, and a list of grades. The class should have a class variable to track the number of students. Include methods to add grades, calculate the average grade, and display the student’s information.
+
+Logic:
+Class variable total_students to count instances.
+Constructor initializes student name and ID.
+Methods to add grades, calculate average, and display info.
+
+
+
+Problem 3: Library Book Tracking
+Statement: Create a class Book that represents a book in a library. The class should have a class variable for tracking the number of books in the library. Include a constructor to set the title, author, and availability status. Implement methods to borrow and return the book, and to display book information.
+
+Logic:
+Class variable total_books to track total books.
+Constructor initializes title, author, and availability.
+Methods for borrowing, returning, and displaying book details.
+
+
+Problem 4: E-Commerce Product Management
+Statement: Implement a class Product that represents a product in an e-commerce store. The class should have a class variable to count the total number of products. Include a constructor that initializes the product name, price, and quantity. Add methods to apply discounts, restock, and display product details.
+
+Logic:
+Class variable total_products to track products.
+Constructor initializes product details.
+Methods for applying discounts, restocking, and displaying info.
+
+
+Problem 5: Vehicle Fleet Management
+Statement: Create a class Vehicle that models a vehicle in a fleet. The class should include a class variable for the total number of vehicles. The constructor should initialize the vehicle’s make, model, and mileage. Implement methods to update mileage, and display vehicle information.
+
+Logic:
+Class variable total_vehicles to track the number of vehicles.
+Constructor initializes make, model, and mileage.
+Methods for updating mileage and displaying vehicle details.
+These statements can be expanded into full implementations depending on the specific requirements and functionality you want to explore!

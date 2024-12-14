@@ -1,0 +1,60 @@
+Create a file and write 50 Linux commands and their functionalities.
+
+1. ls     -> Show all the files and directories in the current working directory
+2. ls -la -> show all the files and directories including hidden files and their permissions.
+3. cd     -> To change the current working directory 
+4. cd -   -> Change the current working directory to the previous one.
+5. cat    -> To display the content of the file 
+6. cp     -> The cp command is used to copy a file to another folder
+7. rm -r/rm -> This command is used to  remove files or directory
+8. mv <Filename> <Renamefile> -> This command is used to rename any file or to create a backup file
+9. pwd    -> Print working directory.
+10. touch -> This command is used to create a new file.
+11. df    -> This command is used for the disk Information.
+12. mkdir -> mkdir is used to create a directory.
+13. mkdir ~/<DirName> -> This is used to create a Directory at the home Directory.
+14. whoami -> Is used to Display the use Name.
+15. ifconfig -> This command can display the IP address.
+16. top   -> TOP command is used for displaying information about the system and CPU consuming processes and ProcessorID
+17. diff  -> The diff command is used to compare two files line by line and show the difference.  
+18. wc    -> The wc command is used to print the line, word and byte count in a file.
+19. zip   -> Zip command is used to create a .zip archived file, zip <file.zip> <Filename>
+20. unzip -> unzip Command is used to unarchive any zip, unzip <Filename.zip>
+21. chmod -> CHMOD command is used to change the permission of any file and directory.
+22. free  -> FREE command is used to show the total, free and used amount of memory <-h> Flag for the human-readable format
+23. apt   -> APT command is used to manage packages and allow installing, updating and removing packages.
+24. uname -a -> The command is used to display all the available system info like kernel name, version, hardware and hostname
+25. sudo  -> sudo is a superdo command that allows you to run the command as another user.
+26. head  -> HEAD command is used to show only the first ten lines of a file.
+27. tail  -> TAIL command is used to show the last ten lines of a file.
+28. echo  -> ECHO command is used to print the text on the terminal.
+29. history -> history command is used to list all the commands the user executed previously.
+30. man   -> MAN command is used to show the usage manual or help page for a command.
+31. clear -> This command is used to clear the screen.
+32. mv    -> This command is used to move a file from one folder to another.
+33. ssh   -> secure shell command is used to connect to another server.
+34. scp   -> The scp command is used to copy a file from one server to another.
+35. ping  -> ping command is used to check server connectivity.
+36. netstat -> This command can display all the activity of the network.
+37. service -> This command is used to start or stop system services.
+38. useradd -> This command is used to add any new user. 
+39. passwd -> This command is used to create the password for the new user or existing user.
+40. su    -> su Command is used to switch the user.
+41. date  -> This command is used to display the date.
+42. The locate -> locate command is used to locate any file in the system.
+43. unique  -> This command can remove duplicate lines and show unique
+44. jobs  -> command is used to list all the active jobs.
+45. cal   -> cal command is used to display the calendar.
+46. userdel -> This command is used to delete the user.
+47. groupadd -> This command is used to create a group.
+48. which -> Which command is used to locate the command. 
+49. dmesg -> This command is used to display kernel-related messages from ring buffers, like hardware, and device drivers.
+50. tree  -> TREE command displays the directory structure as a tree. 
+
+
+
+
+
+
+
+  

@@ -1,0 +1,38 @@
+Assignment 2-classes and objects
+
+Library Book Inventory:
+
+Problem Statement: Create a Book class with attributes like title, author, and ISBN. Implement methods to read book details from user input, display all book information, and a logic method to check if a book is available based on its status.
+Logic Method: is_available() - Returns true if the book is not currently checked out.
+
+Student Attendance Tracker:
+
+Problem Statement: Design a Student class with attributes for name and attendance records. Create methods to read student details, display attendance for the month, and a logic method to calculate the percentage of classes attended.
+Logic Method: attendance_percentage() - Computes the percentage of attended classes based on total classes.
+
+To-Do List Application:
+
+Problem Statement: Build a Task class with attributes for task name, due date, and status. Implement methods to read task details from the user, display the task list, and a logic method to check if the task is overdue.
+Logic Method: is_overdue() - Checks if the current date exceeds the due date.
+
+Expense Tracker:
+
+Problem Statement: Create an Expense class with attributes for description, amount, and category. Implement methods to read expense entries, display all expenses, and a logic method to calculate the total expenses for a specific category.
+Logic Method: total_expenses(category) - Sums the amounts of expenses belonging to the specified category.
+
+Contact Management System:
+
+Problem Statement: Design a Contact class with attributes for name, phone number, and email. Create methods to read contact details, display all contacts, and a logic method to find a contact by name.
+Logic Method: find_contact(name) - Searches for and returns the contact details based on the provided name.
+
+
+Simple Bank Account:
+
+Problem Statement: Create a BankAccount class with attributes for account holder name and balance. Implement methods to read account details, display the account balance, and a logic method to check if the account is overdrawn.
+Logic Method: is_overdrawn() - Returns true if the balance is less than 0.
+
+
+Employee:
+
+Problem Statement: Design an Employee class with attributes for name, position, and salary. Implement methods to read employee details, display the employee information, and a logic method to determine if the employee is eligible for a bonus based on salary.
+Logic Method: is_eligible_for_bonus() - Returns true if the salary exceeds a specified threshold (e.g., $50,000).

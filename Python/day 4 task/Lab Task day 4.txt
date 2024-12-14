@@ -1,0 +1,123 @@
+Lab Task:-
+==========
+Task1:-
+-------
+depts={
+       101 : "sales",
+       102 : "purch",
+       103 : "accts",
+       104 : "finan"
+      }
+emps = {
+         "arun" : "blr-101-alpha",
+         "ravi" : "chn-104-beta",
+         "hari" : "hyd-102-delta",
+         "manu" : "del-103-omega"
+       }
+
+Expected:-
+-----------
+Enter the emp name : ravi
+      location     : blr
+      dept id      : 104
+      dept name    : finan
+      proj name    : beta
+
+Enter the emp name : john
+Error - Invalid emp name
+
+Task2:-
+-------
+Define a procedure histogram() that takes a list of integers and prints a histogram
+to the screen. For example, histogram([4, 9, 7]) should print the following:
+****
+*********
+*******
+
+Task3:-
+-------
+Write a version of a palindrome recognizer that also accepts phrase palindromes
+such as "Go hang a salami I'm a lasagna hog.", "Was it a rat I saw?", "Step on no pets",
+"Sit on a potato pan, Otis", "Lisa Bonet ate no basil", "Satan, oscillate my metallic
+sonatas", "I roamed under it as a tired nude Maori", "Rise to vote sir", or the exclamation
+"Dammit, I'm mad!". Note that punctuation, capitalization, and spacing are usually
+ignored.
+
+Task4:-
+-------
+A pangram is a sentence that contains all the letters of the English alphabet at
+least once, for example: The quick brown fox jumps over the lazy dog. Your task here is
+to write a function to check a sentence to see if it is a pangram or not.
+
+Task5:-
+-------
+In cryptography, a Caesar cipher is a very simple encryption techniques in which
+each letter in the plain text is replaced by a letter some fixed number of positions down
+the alphabet. For example, with a shift of 3, A would be replaced by D, B would become
+E, and so on. The method is named after Julius Caesar, who used it to communicate
+with his generals. ROT-13 ("rotate by 13 places") is a widely used example of a Caesar
+cipher where the shift is 13. In Python, the key for ROT-13 may be represented by
+means of the following dictionary:
+
+key = {'a':'n', 'b':'o', 'c':'p', 'd':'q', 'e':'r', 'f':'s', 'g':'t', 'h':'u', 'i':'v', 'j':'w', 'k':'x', 'l':'y', 'm':'z', 'n':'a',
+'o':'b', 'p':'c', 'q':'d', 'r':'e', 's':'f', 't':'g', 'u':'h', 'v':'i', 'w':'j', 'x':'k', 'y':'l', 'z':'m', 'A':'N', 'B':'O',
+'C':'P', 'D':'Q', 'E':'R', 'F':'S', 'G':'T', 'H':'U', 'I':'V', 'J':'W', 'K':'X', 'L':'Y', 'M':'Z', 'N':'A',
+'O':'B', 'P':'C', 'Q':'D', 'R':'E', 'S':'F', 'T':'G', 'U':'H', 'V':'I', 'W':'J', 'X':'K', 'Y':'L', 'Z':'M'}
+
+Your task in this exercise is to implement an encoder/decoder of ROT-13. Once you're
+done, you will be able to read the following secret message:
+
+Pnrfne pvcure? V zhpu cersre Pnrfne fnynq!
+
+Note that since English has 26 characters, your ROT-13 program will be able to both
+encode and decode texts written in English.
+
+
+
+Task6:-
+-------
+Write a Python program to sort a tuple by its float element.
+Sample data: 
+  [('item1', '12.20'), ('item2', '15.10'), ('item3', '24.5')]
+Expected Output: 
+  [('item3', '24.5'), ('item2', '15.10'), ('item1', '12.20')]
+
+
+Task7:-
+-------
+Write a Python program to count the elements in a list until an element is a tuple.
+
+Sample input : list = [10, 20, 30, (40,50), 60]
+
+Sample output = 3
+
+Task8:-
+-------
+Write a Python program to compute element-wise sum of given tuples, using
+“zip()” function
+
+Original tuples:
+(1, 2, 3, 4)
+(3, 5, 2, 1)
+(2, 2, 3, 1)
+
+Element-wise sum of the said tuples:
+(6, 9, 8, 6)
+
+Task9:-
+-------
+Given a dictionary of students and their favourite colours:
+people={'Arham':'Blue','Lisa':'Yellow',''Vinod:'Purple','Jenny':'Pink'}
+
+1. Find out how many students are in the list
+2. Change Lisa’s favourite colour to "Purple"
+3. Remove 'Jenny' and her favourite colour
+4. Sort and print students and their favourite colours alphabetically by name
+
+
+Task10:-
+--------
+Write a function translate() that will translate a text into "rövarspråket" (Swedish for
+"robber's language"). That is, double every consonant and place an occurrence of "o" in
+between. For example, translate("this is fun") should return the string "tothohisos isos
+fofunon".

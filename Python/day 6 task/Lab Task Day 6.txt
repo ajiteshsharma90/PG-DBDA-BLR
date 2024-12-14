@@ -1,0 +1,33 @@
+
+Lab Task:-
+==========
+1) Write a NumPy program to read a CSV data file and store records in an array.
+
+2) Write a NumPy program to convert a PIL Image into a NumPy array. Also convert
+   a NumPy array to an image. Display the image.
+
+Sample Output:
+[[[255 255 255 0]
+.......
+[255 255 255 0]]]
+
+3) Write a NumPy program to convert Pandas dataframe to Numpy array with
+headers.
+
+4) Write a Pandas program to read a dataset from diamonds.csv(prepare yourself)
+a)DataFrame and modify the default columns values and print the first 6 rows
+b)calculate the mean of each numeric column of diamonds DataFrame.
+c)calculate count, minimum, maximum price for each cut of diamonds DataFrame
+d)print a concise summary of diamonds DataFrame.
+e)count the duplicate rows of diamonds DataFrame.
+
+
+5) Extract any website data using Beautiful Soup.
+
+6)Import csv file using pandas, 
+  find correlation and plot heatmap of correlation using seaborn, 
+  plot the scatter plot for any two highest correlated columns using
+   matplotlib and plotly
+
+
+

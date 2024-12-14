@@ -1,0 +1,147 @@
+Lab Task:-
+===========
+Task1:-
+=======
+Given:-
+=======
+name = "harshavardhan"
+
+Expected:-
+==========
+res1 = "harshavardhaN" # convert the last letter to upper case
+res2 = "HarshavardhaN" # convert the first & last letter to upper case
+res3 = "harshavar-DHAN"# Convert the last 4 letters to upper case
+res4 = "harshavar-NDHD"# Convert the last 4 letters to upper case & reverse it
+
+
+Task2:-
+=======  
+sent = "today is monday workday weekday"
+
+# using .count method display no of times "day" is repeated 
+# using .index method get the index all the "day"
+
+Expected:-
+===========
+Total no time "day" is repeated is = 4
+
+first occurance index = 2
+second occurance index = 12
+third occurance index  = 20
+fourth occurace index  = 28
+
+Task3:-
+=======
+data = "15-aug-1947 10:30:45"
+
+using split method split the above data
+
+display the following data
+
+Expected:-
+-----------
+date is = 15-aug-1947
+day = 15
+month = aug
+year = 1947
+time is = 10:30:45
+hours = 10
+mins = 30
+secs = 45
+
+
+Task4:-
+========
+data = "ravi-sales-20,10,40,30"
+
+Expected:-
+----------
+total sales = 100
+min = 10
+max = 40
+avg = 20.00
+
+
+Task5:-
+=======
+ Using for loop, write and run a Python program for this algorithm.
+Here is an algorithm to print out n! (n factorial) from 0! to 10! :
+1. Set f = 1
+2. Set n = 0
+3. Repeat the following 10 times:
+a. Output n, "! = ", f
+b. Add 1 to n
+c. Multiply f by n
+
+Task6:-
+========
+Modify the program above using a while loop so it prints out all of the factorial
+values that are less than 2 billion. (You should be able to do this without looking at the
+output of the previous exercise.)
+
+
+Task7:-
+=======
+Write a program that asks the user how many days are in a particular month, and
+what day of the week the month begins on (0 for Monday, 1 for Tuesday, etc), and then
+prints a calendar for that month. For example, here is the output for a 30-day month that
+begins on day 4 (Thursday):
+
+S  M  T  W  T  F  S
+         1  2  3
+4  5  6  7  8  9  10
+11 12 13 14 15 16 17
+18 19 20 21 22 23 24
+25 26 27 28 29 30
+
+
+Task8:-
+========
+Define a procedure histogram() that takes a list of integers and prints a histogram
+to the screen. For example, histogram([4, 9, 7]) should print the following:
+
+****
+*********
+*******
+
+Task9:-
+=======
+Given:-
+========
+data = [10,20,30,40,50]
+
+Expected:-
+----------
+res="10-20-30-40-50"
+
+
+Task10:-
+=========
+Given:-
+========
+data = "10-50-25-12-85"
+
+Expected:-
+==========
+res = "11-51-26-13-86"
+
+
+Task11:-
+========
+using for loop
+print the following outputs
+
+output1:-
+---------
+1
+2 2
+3 3 3
+4 4 4 4
+5 5 5 5 5
+
+output2:-
+--------
+A
+B B
+C C C
+D D D D

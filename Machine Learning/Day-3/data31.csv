@@ -1,0 +1,13 @@
+name,read,write,revision,ht,wt,marks
+arun,4   ,1 ,yes,5.5,80,10
+ravi,4.5 ,1 ,yes,5.4,60,10
+manu,2.5 ,2 ,yes,5.0,50,7
+raja,3.5 ,1 ,no ,5.1,60,6
+elan,4   ,1 ,yes,6.0,67,10
+ramu,3   ,1 ,no ,5.6,59,9
+hari,5   ,2 ,no ,5.6,75,10
+pari,4   ,1 ,yes,5.7,85,10
+tara,2   ,1 ,no ,5.1,54,7
+dine,5   ,1 ,yes,5.3,65,10
+kala,3   ,2 ,no ,5.5,74,7
+suri,2   ,2 ,yes,5.8,70,6

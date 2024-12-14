@@ -1,0 +1,42 @@
+ Problem Statement: Library Management System
+Objective: Develop a library management system that categorizes different types of books (e.g., Fiction, Non-Fiction, and Reference). Each book type should have its own method to display borrowing rules.
+
+Logic-Building Method for Overriding:
+Define a Superclass: Create a superclass Book with a method displayBorrowingRules().
+Subclass Implementation: Create subclasses (Fiction, NonFiction, Reference) that override displayBorrowingRules() to provide specific rules for borrowing each type of book.
+Polymorphism: Maintain a list of Book objects and call displayBorrowingRules() to demonstrate overridden behaviors.
+
+
+2. Problem Statement: Employee Management System
+Objective: Create an employee management system that manages different employee roles (e.g., Manager, Engineer, and Intern). Each role should provide its own method to calculate bonuses.
+
+Logic-Building Method for Overriding:
+Superclass Definition: Define a superclass Employee with a method calculateBonus().
+Subclass Specialization: Implement subclasses (Manager, Engineer, Intern) that override calculateBonus() to implement role-specific bonus calculations.
+Dynamic Binding: Use an array of Employee references to calculate bonuses for different roles using polymorphism.
+
+
+3. Problem Statement: Animal Rescue Center
+Objective: Design a system for an animal rescue center that manages different animal types (e.g., Dog, Cat, and Bird). Each animal type should have its own method to describe care requirements.
+
+Logic-Building Method for Overriding:
+Common Superclass: Create a superclass Animal with a method describeCareRequirements().
+Subclass Customization: Define subclasses (Dog, Cat, Bird) that override describeCareRequirements() to provide specific care instructions for each animal type.
+Care Instructions: Create a collection of Animal objects and invoke describeCareRequirements() to display care instructions for each type.
+
+
+4. Problem Statement: Online Course Management System
+Objective: Build a system that manages different course types (e.g., LiveCourse, RecordedCourse, and Workshop). Each course type should provide its own method to calculate enrollment fees.
+
+Logic-Building Method for Overriding:
+Superclass Structure: Define a superclass Course with a method calculateEnrollmentFee().
+Subclass Implementation: Implement subclasses (LiveCourse, RecordedCourse, Workshop) that override calculateEnrollmentFee() to specify different fee structures.
+Fee Calculation: Maintain a list of Course objects and use polymorphism to calculate and display enrollment fees.
+
+5. Problem Statement: E-Commerce Payment System
+Objective: Develop an e-commerce system that handles various payment methods (e.g., CreditCardPayment, PayPalPayment, and GiftCardPayment). Each payment method should implement its own processing logic.
+
+Logic-Building Method for Overriding:
+Common Superclass: Create a superclass Payment with a method processPayment().
+Subclass Specialization: Create subclasses (CreditCardPayment, PayPalPayment, GiftCardPayment) that override processPayment() to implement unique processing logic for each payment method.
+Payment Processing: Use a list of Payment references to process payments and demonstrate overridden behaviors.

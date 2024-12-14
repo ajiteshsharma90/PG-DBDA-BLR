@@ -1,0 +1,326 @@
+Task1:-
+=======
+>> we have a core library
+
+config = {
+          "loc1" : {"city" : "blr", "vals" : [10,20,30],
+          "loc2" : {"city" : "chn", "vals" : [40,50,60]
+         }
+
+1) pickle the Dictionary -  store the dict in a file
+2) unpickle the data     -  read the file
+
+3) encode the dict as json - store the dict in a file
+4) decode the data         - read the file
+
+5) prepare the DATAFRAME from the pickle file
+                         from the json file
+
+Note: extension of the pickle file will be .pkl or pickle
+
+
+Task2:-
+=======
+f1 = open("datas.csv", "w")
+
+f1.write('''name,dept,salary,bonus
+arun,SALES,18000,18500
+john,accts,16000,10500
+ravi,purch,20000,
+manu,hrd,19000,?
+elan,hrd,,11000
+somu,Sales,12000,10500
+raja,sales,?,19000
+vani,sales,21000,21500
+guru,HRD,15000,
+kala,HRD,15000,2000
+yash,accts,18500,19000
+pavan,sales,21000,21500
+rinu,Accts,,2000
+elan,purch,15000,2000
+tara,accts,18500,3230
+ullas,purch,15000,2000
+manav,hrd,,
+amar,sales,18000,3500
+giri,Accts,21000,3000''')
+f1.close()
+
+
+1) clean the data 
+2) create new column "netpay"  = salary + bonus
+3) create new column "band"    = netpay>25000   "A"
+                                                "B"
+4) Display how many emps are there in "BAND-A"
+                                   in "BAND-B"
+5) use the graph to display the data how many emps are    
+   there in each BAND 
+
+6) display a graph to display 
+   how are emps distributed based on the dept ?
+
+
+
+Task3:-
+=======
+ how to merge data frames = ?   
+ how to join data frames  = ?
+ how to concat data frames = ?
+
+
+Task4:-
+========
+data4.csv:-
+===========
+name,dept,loc,date_join
+mahesh,sales,blr,12-jan-2020
+harish,purch,mum,15-mar-2023
+ramesh,sales,chn,31-dec-2021
+suresh,accts,hyd,05-feb-2022
+parash,finan,del,20-oct-2019
+mukesh,accts,gur,17-jul-2021
+rakesh,sales,noi,01-may-2022
+umeesh,finan,blr,10-nov-2019
+rajesh,sales,chn,11-sep-2020
+ganesh,accts,blr,22-aug-2018
+
+Expected output:-
+-----------------
+name    date_join    no_years_of_experience
+mahesh  12-jan-2020  ?
+harish  15-mar-2023  ?
+ramesh  31-dec-2021  ?
+suresh  05-feb-2022  ?
+parash  20-oct-2019  ?
+mukesh  17-jul-2021  ?
+rakesh  01-may-2022  ?
+umeesh  10-nov-2019  ?
+rajesh  11-sep-2020  ?
+ganesh  22-aug-2018  ?
+
+
+
+
+
+Task5:-
+=========
+emps.csv:-
+===========
+code,name,dept,salary
+1001,manu,sales,15000
+1002,hari,purch,25000
+1003,john,sales,18000
+1004,amar,purch,24000
+1005,yash,sales,15000
+1006,guru,sales,21000
+1007,elan,accts,18000
+1008,ramu,accts,17000
+1009,tara,sales,17500
+1010,lala,purch,19000
+
+based on the dept classify the rows 
+
+1) sales emps should be in a file named "sales.csv"
+   accts emps should be in a file named "accts.csv"
+   purch emps should be in a file named "purch.csv"
+
+
+2) apply this on the main dataframe 
+
+   if the emp works in sales dept & loc is blr increase salary by 5000
+
+
+
+Task6:-
+========
+data1.csv:-
+-----------
+empid-name-dept
+1001-ravi-sales
+1002-hari-accts
+1003-john-purch
+1004-manu-finan
+1005-kunal-devops
+
+data2.csv:-
+-----------
+code,city
+1001,blr
+1002,chn
+1004,hyd
+1008,mum
+
+Expected output:-
+-----------------
+101 ravi sales blr
+102 hari accts chn
+104 manu finan hyd 
+
+
+Task7:-
+========
+Convert the given csv file into
+  1) paraquet file
+  2) feather file
+  3) json file
+
+
+Task8:-
+=======
+data8.csv:-
+------------
+name,got,exp
+t1,10,20
+t2,10,10
+t3,15,20
+t4,12,12
+t5,30,30
+t6,32,32
+t7,20,20
+t8,*,
+t9,10,
+t10,11,11
+t11,hai,20
+t12,?,30
+t13,0,0
+t14,25,20
+t15,0,?
+t16,"10","20"
+
+1) prepare the data frame for the above data 
+2) clean the data 
+3) match the data types
+4) create a new column - status = if got==exp set status as PASS
+                                  if got!=exp set status as FAIL
+
+
+
+Task7:-
+=======
+
+data.txt:-
+----------
+how is this name=ravi and then later marks [10 20 30]
+name = manu hello world of marks=[40 50 60] then also data
+data is find name= hari marks= [70 80 90] from then that
+this is how data name = guru of then this marks = [25 35 45]
+
+Expected1:-
+-----------
+prepare a data frame from the above text file 
+name  marks
+ravi  [10,20,30]
+manu  [40,50,60]
+hari  [70,80,90]
+guru  [25,35,45]
+
+Expected2:-
+-----------
+data frame
+name  marks       total  avg
+ravi  [10,20,30]   ?      ?
+manu  [40,50,60]   ?      ?
+hari  [70,80,90]   ?      ?
+guru  [25,35,45]   ?      ?
+
+
+
+
+Task8:-
+=======
+
+alst = [
+        "hari-blr-math-50,sci-56,soc-84",
+        "john-chn-math-60,sci-64,soc-54",
+        "ramu-hyd-math-80,sci-56,soc-75",
+        "elan-mum-math-30,sci-43,soc-54",       
+       ]
+
+
+prepare a data frame for above list
+
+
+Expected :-
+------------
+hari total ? best subject soc
+john total ? best subject sci
+ramu total ? best subject math
+elan total ? best subject soc
+
+Best student in math dept = ?
+Best student in sci dept  = ?
+Best student in soc dept  = ?
+
+
+
+Task9:-
+=======
+what is NORMAL DISTRIBUTION ?
+
+how to find the skewness without a graph ?
+
+how to identify the left skewed / right skewed ?
+
+How to find the kurtosis without a graph ?
+
+Task10:-
+========
+data10.csv:-
+=============
+num1,num2,num3,num4,group
+10,1,12,100,alpha
+11,2,11,200,beta
+12,3,10,300,delta
+13,4,9,10,omega
+14,5,8,5,gamma
+15,6,7,4,alpha
+16,7,6,30,beta
+17,8,5,50,delta
+18,9,4,20,gamma
+19,10,3,43,omega
+20,11,2,32,alpha
+21,12,1,32,beta
+
+
+1) from the above data identify num1 is highly co-related which all
+   the other columns ?
+2) from the above data
+   what is releation ship between num1 and num2 = linear/non-linear 
+                                  num1 and num3 = ?
+                                  num1 and num4 = ?
+                                  num1 and group =?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

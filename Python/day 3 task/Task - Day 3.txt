@@ -1,0 +1,161 @@
+Lab Task:-
+==========
+Task1:-
+========
+Given:-
+--------
+data = "ravi-blr-math=50,sci=40,soc=30"
+
+Problem:-
+---------
+>> find the total from the above data
+
+Expected:-
+----------
+Total marks = 120
+
+
+Task2:-
+========
+Given:-
+-------
+names = ["ravi", "arun", "raja", "amit", "Ankur", "hari"]
+
+Problem:-
+---------
+>>filter out names starting with "a"
+>>Ignore the case
+>>Store the resultant in a new list
+
+Expected:-
+-----------
+res = ["arun", "amit", "Ankur"]
+
+
+Task3:-
+=======
+sales = ["dvd-50", "prn-30", "mon-10", "hdd-55", "cpu-20"]
+
+Problem:-
+---------
+>>filter out product name if quantity >=40
+>>Store the resultant in a new list
+>>filter out product name if quantity <40
+>>Store the resultant in a new list
+
+Expected:-
+-----------
+above40 = ["dvd", "hdd"]
+below40 = ["prn", "mon", "cpu"]
+
+
+Task4:-
+=======
+cities = ["blr", "chn", "mum", "hyd", "del"]
+grps = ["blr", "del", "noida"]
+
+Problem:-
+---------
+>>find the common city names between two lists 
+>>Don't use set operations
+
+Expected:-
+-----------
+common = ["blr", "del"]
+
+
+Task5:-
+=======
+Given:-
+-------
+nums = [1,2,3,4,5]
+
+Problem:-
+---------
+>> square each number - INPLACE OPERATION
+
+Expected:-
+----------
+print(nums) # [1,4,9,16,25]
+
+
+Task6:-
+========
+grp1 = ["red=10", "blue=20", "green=30", "black=40"]
+grp2 = ["orange=50", "brown=45", "red=5", "black=33"]
+
+Problem:-
+----------
+>> using set operations - find the common colours b/w them
+
+Expected:-
+==========
+print(res)  # {"red", "black"}
+
+
+Task7.1:-
+========
+Given:-
+-------
+num=4503
+
+PRoblem:-
+----------
+>> using dictionary
+
+Expected:-
+-----------
+four five zero three
+
+Task7.2:-
+----------
+Given="eight-zero-one-four"
+
+Expected:-
+-----------
+8014
+
+
+
+Task8:-
+=======
+grps = ["alpha", "beta", "delta", "alpha", "beta", "omega","alpha"]
+
+Problem:-
+---------
+find the unique & duplicate values in above list
+
+Expected:-
+----------
+print(unique)      # ["delta", "omega"]
+print(duplicates)  # ["alpha", "beta"]
+
+
+Task9:-
+=======
+Given:-
+-------
+names = ["ravi", "arun", "raja", "amit", "ankur", "harish"]
+
+Problem:-
+---------
+>> Convert the first and last letter to upper case each string
+
+Expected:-
+----------
+print(res) # ["RavI", "AruN", "RajA", "AmiT", "AnkuR", "HarisH"]
+
+
+Task10:-
+========
+grp1 = {"blr" : 5, "chn": 5, "hyd": 5  , "del" : 5 }
+grp2 = {"blr" : 1, "mum": 2, "noida": 3, "del" : 4 }
+
+Expected:-
+==========
+print(res) # {"blr"  : 6,
+              "chn"  : 5,
+              "hyd"  : 5,
+              "del"  : 9,
+              "mum"  : 2,
+              "noida": 3}  

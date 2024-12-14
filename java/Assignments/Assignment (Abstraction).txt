@@ -1,0 +1,23 @@
+### 1. *Library Management System*
+*Problem Statement:*
+You are tasked with designing a *Library Management System* for a university. The system should manage books, magazines, research papers, and digital resources, allowing library members to borrow and return these items. However, each type of resource (books, magazines, digital resources, etc.) has its own unique properties and borrowing rules. For instance, a book may have an author, ISBN, and borrowing limit, while a digital resource might not have an ISBN but could include a download link and license restrictions.
+
+*Objective:*
+- Use abstraction to define a common interface or abstract class, LibraryResource, which includes properties like title, publisher, and methods such as borrow() and return().
+- Each resource type (book, magazine, research paper, digital resource) should inherit from LibraryResource and implement these common methods while adding their own unique properties and behaviors.
+
+*Key Focus:*
+- Design an abstract class that enforces commonality across resources.
+- Implement child classes that specialize in handling specific resource details, while ensuring code reusability and simplicity through abstraction.
+
+### 2. *E-commerce Payment System*
+*Problem Statement:*
+You are developing an *E-commerce Payment System* that needs to support multiple payment methods like credit card, debit card, PayPal, and cryptocurrency. Each payment method follows different procedures to process a payment, but the system must provide a unified way to process any type of payment without knowing the internal details of each payment method.
+
+*Objective:*
+- Use abstraction to create an abstract class PaymentMethod with methods like processPayment(amount) and refund(amount).
+- Implement concrete subclasses like CreditCardPayment, PayPalPayment, and CryptoPayment that provide specific implementations of these methods depending on the payment type.
+
+*Key Focus:*
+- The system should hide the complexity of different payment processing mechanisms by providing a unified interface for handling payments.
+- Use abstraction to simplify the system’s interaction with various payment methods and make it easier to extend in the future when new payment methods are added.

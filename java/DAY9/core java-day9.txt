@@ -1,0 +1,94 @@
+		core java-day9
+
+abstraction
+   abstract class
+   interface- collection method
+to string- overriding
+access specifier
+encapsulation
+  -is process of binding the data and the method which operates on the data 
+
+class - is an example of encapsulation
+- data hiding
+
+class emp
+{
+  private id,
+  private name
+  private sal
+
+ public  void disp()
+   {
+
+   }
+ public  void findbonus()
+{
+
+
+}
+}
+
+
+}
+-----------------------------------------------
+                  oops
+                   (1)
+  part III
+packages 
+  - java.util - collection
+                 (2,3)
+
+  - java.io    - filehandling
+                  (4)
+  - java.sql   - jdbc
+                   (5)
+  - java.lang  - Threading
+               - Exception
+
+  ------------------------------------------
+collection- Data structure
+ - framework,API
+
+interface
+java.uitl
+List         ArrayList implements list
+add,remove    {  void add{   }
+                 void remove{    }
+
+
+              }
+             LinkedList implemets list
+             stack
+             vector
+
+
+Queue         priorityQueue
+              Dqueue
+
+Map           HashMap
+              Hashtable
+
+int - Integer
+float - Float
+char  - Character
+Boolean - Boolean
+
+Emp
+{
+  T id
+  T name;
+
+  Emp(int id, String name)
+  {
+    this.id = id;
+    this.name = name;
+  }
+   main(){ 
+Emp<string,String> e = new emp("cdac","shan");
+
+
+}
+ 
+
+
+

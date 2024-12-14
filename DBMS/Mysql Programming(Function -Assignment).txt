@@ -1,0 +1,13 @@
+Problem Statement 1: Get Employee Details
+Description: Create a function that takes an employee ID as input and returns the details (first name, last name, and salary) of the employee in a single string format, such as "FirstName LastName earns Salary".
+
+Problem Statement 2: Increment Salaries
+Description: Create a function that takes a percentage value as input and increases the salary of all employees by that percentage. The function should return the total amount of salary increment given.
+
+Problem Statement 3: Find Highest Salary
+Description: Create a function that returns the highest salary in the emp table.
+
+Problem Statement 4: Get All Employees with Salary Above
+Description: Create a function that takes a salary value as input and returns the number of employees earning more than that salary.
+
+Problem Statement 5: Create a MySQL function that takes an employee ID as input and returns the total experience of the employee in years, months, and days based on their date of joining.

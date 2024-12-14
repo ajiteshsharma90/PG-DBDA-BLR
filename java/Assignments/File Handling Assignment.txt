@@ -1,0 +1,33 @@
+File Handling Assignment:
+
+
+
+Problem Statement: Employee Management System
+Scenario:
+A company wants to maintain a record of its employees using a text file. Each employee has the following attributes: employeeID, name, department, salary, and joinDate. Your task is to implement a Java application that performs the following operations using object-oriented principles:
+
+
+Write:  Add new employee records to the file.
+Update: Modify the details of an existing employee based on employeeID.
+Delete: Remove an employee record from the file based on employeeID.
+Business Logic: Implement a method that calculates the total salary expenditure of all employees.
+
+
+Implement a Java program that uses file handling to perform the read and write operations. The program should include:
+
+An Employee class to represent individual employee records.
+An EmployeeManager class to handle file operations and business logic.
+
+Sample Implementation Outline
+
+1. Employee Class:
+Attributes: employeeID, name, department, salary, joinDate.
+Constructor and methods to get and set attributes.
+
+2. EmployeeManager Class:
+Methods to perform operations:
+
+Write: Add a new employee record to the file.
+Update: Update an employee's details based on employeeID.
+Delete: Remove an employee record based on employeeID.
+Business logic method to calculate the total salary expenditure.

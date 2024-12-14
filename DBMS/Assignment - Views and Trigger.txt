@@ -1,0 +1,12 @@
+Lab Assignment:
+1 Read and understand the related chapters.
+
+2 Create View to find employee Who have highest salary, Print name, salary,
+department number and department name.
+
+3 Create View to fine salesperson who handles a customers who make highest number of
+orders, return order date, salesperson ID, name.
+
+
+4.Create a trigger so that total percentage of commission based on salary of employees is automatically inserted whenever a record is insert.
+

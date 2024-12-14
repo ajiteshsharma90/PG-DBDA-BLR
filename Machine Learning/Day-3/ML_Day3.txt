@@ -1,0 +1,123 @@
+Task1:-
+=======
+data31.csv:-
+------------
+name,read,write,revision,ht,wt,marks
+arun,4   ,1 ,yes,5.5,80,10
+ravi,4.5 ,1 ,yes,5.4,60,10
+manu,2.5 ,2 ,yes,5.0,50,7
+raja,3.5 ,1 ,no ,5.1,60,6
+elan,4   ,1 ,yes,6.0,67,10
+ramu,3   ,1 ,no ,5.6,59,9
+hari,5   ,2 ,no ,5.6,75,10
+pari,4   ,1 ,yes,5.7,85,10
+tara,2   ,1 ,no ,5.1,54,7
+dine,5   ,1 ,yes,5.3,65,10
+kala,3   ,2 ,no ,5,5,74,7
+suri,2   ,2 ,yes,5.8,70,6
+
+
+from the above data indentify the co-relation
+
+Expected output :-
+===================
+marks with read     = 0.97
+marks with write    = -1
+marks with revision = 0
+marks with ht       = 0.4
+marks with wt       = 0.3
+
+
+
+Task2:-
+=======
+x = [1,2,3,4,5,6,7,8,9,10]
+y = [10,11,10,10,9,10,10,11,10,10]
+
+for the above data
+
+1) prepare a data frame for the above data
+2) check is "x" and "y" are linear/non-linear 
+3) find the linear regression slope = ?
+4) find the linear regression intercept = ?
+5) what is the line equation = ?
+using slope formula
+using intercept formua 
+
+
+Task3:-
+=======
+emps.csv:-
+===========
+code,name,dept,salary
+1001,manu,sales,15,100/-
+1002,hari,purch,25,000/-
+1003,john,sales,18,200/-
+1004,amar,purch,24,000/-
+1005,yash,sales,15,000/-
+1006,guru,sales,21,200/-
+1007,elan,accts,18,500/-
+1008,ramu,accts,17,000/-
+1005,yash,sales,15,000/-
+1005,yash,sales,15,000/-
+1009,tara,sales,17,500/-
+1010,lala,purch,19,000/-
+1009,tara,sales,17,500/-
+1002,hari,purch,25,000/-
+1002,hari,purch,25,000/-
+1002,hari,purch,25,000/-
+1009,tara,sales,17,500/-
+1009,tara,sales,17,500/-
+1009,tara,sales,17,500/-
+
+1) prepare a data frame of the above data
+2) remove the duplicate rows
+3) find the employee who drawing HIGHEST SALARY 
+4) find the employee who drawing LOWEST SALARY
+5) find Which dept has MAX employees
+6) find which dept has MIN Employees
+7) find total salary of each dept = ? 
+
+
+Task4:-
+=======
+studs.csv:-
+===========
+name,math,sci,soc
+arun,10,20,30
+ravi,40,50,60
+manu,20,10,10
+raja,50,10,20
+para,40,30,60
+giri,50,30,10
+jiva,30,20,70
+rama,80,50,30
+
+Expected output:-
+=================
+name,math,sci,soc,total
+arun,10,20,30,60
+ravi,40,50,60,150
+
+1) display the student name who score max in math ? 
+2) display the student name who score max in sci ? 
+3) display the student name who score max in soc ? 
+
+
+Task5:-
+=======
+x = [1,2,3,4,5,6,7,8,9,10]
+y = [10,11,11,11,10,600,10,500,10,11]
+z = [5,6,5,6,5,5,5,5,6,6]
+
+1) plot a heatmap for the above data
+2) display the outlier
+3) remove the outlier from the above data
+
+Task6:-
+=======
+
+
+
+
+

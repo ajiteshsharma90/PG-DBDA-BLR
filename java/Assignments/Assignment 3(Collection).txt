@@ -1,0 +1,67 @@
+Assignment 3(Collection)
+
+
+Problem 1: Library Book Management System using ArrayList
+Objective: Design a system to manage a collection of books in a library, where each book has a title, author, and status (whether it is available or issued).
+
+Problem Statement: Create a Book class with the following attributes:
+
+title (String)
+author (String)
+isAvailable (boolean)
+Write a program that uses an ArrayList<Book> to manage the library's collection. The program should allow the following operations:
+
+Add new books to the collection.
+Remove a book from the collection based on the title.
+Mark a book as issued or returned based on the title.
+Display all available books in the library.
+
+
+Problem 2: Order Management System using ArrayList
+Objective: Create a system to track customer orders in a shopping system, where each order has an order ID, customer name, and list of products.
+
+Problem Statement: Implement an Order class with the following attributes:
+
+orderID (String)
+customerName (String)
+products (ArrayList<String>)
+Use an ArrayList<Order> to store and manage customer orders. The program should allow the following operations:
+
+Add a new order.
+Remove an order based on the order ID.
+Add or remove products from a specific order.
+Display all orders placed by a particular customer.
+
+
+Problem 3: Product Inventory Management using HashMap
+Objective: Build a system to manage product inventory in a warehouse, where each product has an ID, name, and stock quantity.
+
+Problem Statement: Create a Product class with the following attributes:
+
+productID (String)
+productName (String)
+quantity (int)
+Use a HashMap<String, Product> to store the product inventory, where the key is the productID and the value is the Product object. The program should allow the following operations:
+
+Add new products to the inventory.
+Update the quantity of a product based on its product ID.
+Remove a product from the inventory.
+Display the stock levels for all products.
+
+
+Problem 4: Course Registration System using HashMap
+Objective: Develop a system to manage student registrations for different courses, where each course has a course code, course name, and a list of enrolled students.
+
+Problem Statement: Create a Course class with the following attributes:
+
+courseCode (String)
+courseName (String)
+enrolledStudents (ArrayList<String>)
+Use a HashMap<String, Course> to manage courses, where the key is the courseCode and the value is the Course object. The program should support the following operations:
+
+Add a new course.
+Register a student for a course.
+Display all students enrolled in a particular course.
+Remove a student from a course.
+
+

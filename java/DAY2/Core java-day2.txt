@@ -1,0 +1,116 @@
+		Core java-day2
+part I
+Introduction to java
+data types
+variable
+operators
+--------------------------
+conditional and control statement
+
+if ( )
+{
+
+}
+if()
+{
+}
+ else
+{
+
+}
+if  ()
+{
+}
+   else if()
+{
+}
+   
+   else if()
+{
+}
+else
+{
+}
+
+.equals
+
+break
+continue
+
+switch
+
+looping
+while
+
+do while
+
+for
+----------------------------------------------
+method
+
+static method
+class ifExample
+{
+public  void main(String[] args)
+{
+      reverse.reverseNumber()
+}
+}
+class reverse
+{
+public static void reverseNumber()
+{  logic to reverse
+ }
+}
+you can call the static method by method name
+if the method defined in same class
+
+
+non static method
+
+
+
+
+
+array
+1 class
+1 main
+
+
+1 class
+  1 main
+  1 user difined method
+  2 user difined method
+
+1 class
+   1 main
+2 class
+   userdifed method
+
+3 test.java
+{
+  class 1
+{
+}
+class 2
+{
+
+}
+class 3
+{
+
+
+}
+
+
+
+javac ifexample.java
+java ifexample
+
+
+
+
+}
+
+
+

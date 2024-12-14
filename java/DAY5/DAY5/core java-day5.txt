@@ -1,0 +1,50 @@
+		core java-day5
+part I
+
+part II
+
+classes and objects
+constructor
+this
+
+static variable 
+
+not required reference
+directly by variable name
+classname.varable
+
+static and non static behaviour
+
+
+array of objects
+
+array
+
+
+
+class Employee
+{
+  id,name,sal;
+  constructor
+  displaymethod
+
+main()
+{  
+int[] num= new int[4];
+Employee[] e = new Employee[5];
+
+for(int i=0;i<5;i++)
+{
+Employee e[i] = new Employee(1001,"shan",4000);
+Employee e[i].displayemployee();
+}
+
+}
+
+
+
+
+
+
+
+

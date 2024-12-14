@@ -1,0 +1,91 @@
+ Lab Task:
+==========
+ Task1:
+========
+ f1 = open("data.csv", "w")
+ f1.write("name,loc,salary\n")
+ f1.write("arun,blr,25000\n")
+ f1.write("hari,chn,45000\n")
+ f1.write("john,mum,30000\n")
+ f1.write("manu,hyd,35000")
+ f1.close()
+ >>run the above program- it will create a csv file
+ >>read the csv file store this data in a DATABASE TABLE
+
+ Task2:
+=======
+ From the DATABASE TABLE, READ THE TABLE contents and
+ store them in a text file
+
+ Task3:
+=======
+ Write program to find the most repeated word in a file
+ Assume the file "data.txt" contains----------------------------------
+this that this this this that
+ then that that that
+ that this then that
+ Expected:----------
+Most repeated word in the file is = this
+
+ Task4:
+=======
+ Define a function overlapping () that takes two lists and returns True
+ if they have at least one member in common, False otherwise.
+
+ Task5:
+=======
+ Write a function find_longest_word() that takes a list of words and returns the
+ length of the longest one.
+
+ Task6:
+=======
+ Write a function filter_long_words() that takes a list of words and an integer n
+ and returns the list of words that are longer than n
+
+ Task7:
+=======
+ Define a simple "spelling correction" function correct ()
+ that takes a string and sees to it that
+ 1)two or more occurrences of the space character is compressed into one, and
+ 2)inserts an extra space after a period if the period is
+ directly followed by a letter.
+ e.g. correct ("This is very funny and cool.Indeed!") should return
+ "This is very funny and cool. Indeed!"
+
+ Task8:
+=======
+ In English, present participle is formed by adding suffix-ing to infinite form: go->
+ going. A simple set of heuristic rules can be given as follows:
+ a)If the verb ends in e, drop the e and add ing
+ (if not exception be, see, flee, knee, etc.)
+ b) If the verb ends in ie, change ie to y and add ing
+ c)For words consisting of consonant-vowel-consonant, double the final
+ letter before adding ing
+ d) By default, just add ing
+ Your task in this exercise is to define a function make_ing_form() which given a verb in
+infinitive form returns its present participle form. Test your function with words such as
+ lie, see, move and hug. However, you must not expect such simple rules to work for all
+ cases.
+
+ Task9:
+=======
+ Write a program to display the first and last word of a given file
+ Enter a filename : one.txt
+ contents of one.txt:----------------------
+ hello world of unix was
+ the output of the above
+ program which was given
+ Expected output is :----------------------
+ hello- was
+ the- above
+ program- given
+
+ Task10:
+========
+ write a program to convert the file contents of upper case
+ Enter the file name : one.txt
+ Enter the output file : out.txt
+ contents of one.txt:----------------------
+ hello world of unix was
+ the output of the above
+ program which was given

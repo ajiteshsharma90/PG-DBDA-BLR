@@ -1,0 +1,23 @@
+JDBC Assignment: 
+
+Problem Statement: Employee Management System using JDBC
+Scenario:
+A company wants to manage its employee records in a MySQL database. Each employee has the following attributes: employeeID, employeeName, designation, salary, and department. Your task is to implement a Java application that performs the following CRUD operations:
+
+Create: Add new employee records.
+Read: Retrieve and display all employee records.
+Update: Modify the details of an existing employee based on employeeID.
+Delete: Remove an employee record from the database.
+Additionally, you need to implement a business logic query to calculate the average salary of employees within a specific department.
+
+Requirements:
+
+Create a MySQL database named CompanyDB and a table named Employee with the following structure:
+
+CREATE TABLE Employee (
+    employeeID INT PRIMARY KEY AUTO_INCREMENT,
+    employeeName VARCHAR(100),
+    designation VARCHAR(100),
+    salary DECIMAL(10, 2),
+    department VARCHAR(100)
+);
