@@ -1,0 +1,22 @@
+### steps
+1. download the mapper.py and reducer.py files
+2. test mapper:
+    cat streaming_source_data.txt | ./streaming_mapper.py
+    ****Output must be each word in the source file, with a 1 alongside it.
+    ****words repeated in source file must be seen repeatedly in output, each having a 1 alongside
+3. test reducer:
+    cat streaming_source_data.txt | ./streaming_mapper.py | sort -k1,1 | ./streaming_reducer.py
+    ****same output as above, except that repeated words must now have the total count in front of them, instead of multiple occurences with a count of 1
+4. copy test file streaming_source_data.txt to HDFS
+    hdfs dfs -put test_file_path hadoop_destination_directory
+5. locate the hadoop streaming jar named (hadoop-streaming-*.jar)
+6. Run mapreduce
+
+hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-2.10.2.jar \
+  -input /streaming_source_data.txt \
+  -output /stream_out159 \
+  -mapper streaming_mapper.py \
+  -reducer streaming_reducer.py \
+  -file streaming_mapper.py \
+  -file streaming_reducer.py
+

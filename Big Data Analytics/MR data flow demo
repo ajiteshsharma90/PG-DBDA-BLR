@@ -1,0 +1,135 @@
+Wikis are enabled by wiki software, otherwise known as wiki engines. 
+A wiki engine, being a form of a content management system, differs from other engines.
+
+
+Wikis   1
+are 1
+enabled 1
+by  1
+wiki    3
+    wiki    1
+    wiki    1
+    wiki    1
+software    1
+otherwise   1
+known   1
+as  1
+engines 2
+    engine  1
+    engine  1
+A   3
+
+
+Map:
+    Takes one input at a time. Input is entire line.
+    Breaks into individual words. words becomes keys.
+    Appends a constant value to every word. This value is 1.
+
+    reading input 1:
+    Input 1: Wikis are enabled by wiki software, otherwise known as wiki engines. 
+    Output 1: stored in a temp storage
+        Wikis   1
+        are 1
+        enabled 1
+        by  1
+        wiki    1
+        software    1
+        otherwise   1
+        known   1
+    reading input 2:
+    Input 2: A wiki engine, being a form of a content management system, differs from other engines.
+    Output 2: stored in a temp storage
+        a   1
+        wiki 1
+        engine 1
+        being 1
+        ...
+        a   1
+        ...
+        wiki    1
+
+    Map outputs grouped together:
+        Wikis   1
+        are 1
+        enabled 1
+        by  1
+        wiki    1
+        software    1
+        otherwise   1
+        known   1
+        a   1
+        wiki 1
+        engine 1
+        being 1
+        ...
+        a   1
+        ...
+        wiki    1
+
+    Partitoner: Identifying designated reducer
+    Shuffle: sending Map data to designated reduced
+    Sort:
+        [
+            [a   1],
+            [a   1]    
+        ]
+        [are 1]
+        [being 1]            
+        [by  1]
+        [engine 1]
+        [enabled 1]
+        [known   1]
+        [otherwise   1]
+        [software    1]
+        [
+            [wiki    1],
+            [wiki    1],
+            [wiki    1]
+        ]
+        [Wikis   1]        
+
+    Reducer:
+    Gets input from sort:
+        [
+            [a   1],
+            [a   1]    
+        ]
+
+        Loop through the input and add the values
+        Before the loop: total 0
+        Loop 1: total 1,
+        Loop 2: 2
+        Nothing more to loop.
+        output.
+        [a,2]
+        Fetch next input and repeat
+
+    Final output:
+        Wikis   1
+        are 1
+        enabled 1
+        by  1
+        wiki    3
+        software    1
+        otherwise   1
+        known   1
+        as  1
+        engines 2
+        A   3
+
+
+Combiner flow*****
+
+No combiner:
+
+       |- Block1 - Map1 - Written to disk - Partitioner - Shuffle - Sort -|
+File - |- Block2 - Map2 - Written to disk - Partitioner - Shuffle - Sort -|- Reducer
+       |- Block3 - Map3 - Written to disk - Partitioner - Shuffle - Sort -|
+
+With Combiner:
+
+       |- Block1 - Map1 - Combiner - Written to disk - Partitioner - Shuffle - Sort -|
+File - |- Block2 - Map2 - Combiner - Written to disk - Partitioner - Shuffle - Sort -|- Reducer
+       |- Block3 - Map3 - Combiner - Written to disk - Partitioner - Shuffle - Sort -|
+
+
