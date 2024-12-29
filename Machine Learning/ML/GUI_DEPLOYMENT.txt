@@ -1,0 +1,38 @@
+from tkinter import *
+#import tk
+
+root = Tk()
+
+def add_logic():
+  op1 = e1.get()
+  op2 = e2.get()
+  ans = int(op1) + int(op2)
+  e3.insert(0,str(ans))
+
+
+l1 = Label(root,text="Adder") 
+l2 = Label(root,text="num1") 
+l3 = Label(root,text="num2") 
+l4 = Label(root,text="res") 
+
+e1 = Entry(root)
+e2 = Entry(root)
+e3 = Entry(root)
+
+b1 = Button(text="ok", command=add_logic)
+b2 = Button(text="cancel")
+
+l1.grid(row=0,column=0)
+l2.grid(row=1,column=0)
+l3.grid(row=2,column=0)
+l4.grid(row=3,column=0)
+
+e1.grid(row=1,column=1)
+e2.grid(row=2,column=1)
+e3.grid(row=3,column=1)
+
+b1.grid(row=4,column=0)
+b2.grid(row=4,column=1)
+
+
+root.mainloop()
